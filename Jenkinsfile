@@ -21,7 +21,7 @@ sh 'go build .'
 } 
 stage('Run') { 
 steps { 
-sh 'cd /var/lib/jenkins/workspace/cicd && go-webapp-sample &' 
+sh 'cd /var/lib/jenkins/workspace/full-cicd-go && go-webapp-sample &' 
 } 
 } 
 } 
